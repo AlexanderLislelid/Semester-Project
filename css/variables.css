@@ -1,9 +1,28 @@
 :root {
+    /* Colors */
     --orange: #EBB967;
     --lightblue: #67D4EB;
     --background: #333A56;
     --text-background: #1A1D2B;
     --white: #FFFFFF;
+
+    /* Fonts */
     --paragraph: 'Rubik', 'Open Sans', 'Helvetica Neue', sans-serif;
-    --heading: 'space-grotesk'. 'montserrat', 'Arial', 'Roboto';
+    --heading: 'Space Grotesk', 'Montserrat', 'Arial', 'Roboto', sans-serif;
+
+    /* Font-sizes and weight */
+
+    --text-3xl: 3rem;       /* 48px */
+    --text-2xl: 2.25rem;    /* 36px */
+    --text-1xl: 1.5rem;     /* 24px */
+    --text-l: 1.25rem;     /* 20px */
+    --text-med: 1.125rem;    /* 18px */
+    --text-base: 1rem;      /* 16px */
+    
+    --weight-light: 300;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+    
 }
