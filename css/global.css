@@ -17,8 +17,7 @@ p {
     font-family: var(--paragraph);
     font-size: var(--text-base);
     font-weight: var(--regular);
-    margin:15px;
-    padding: 10px;
+    
 }
 h1, h2, h3, a {
     text-transform: uppercase;
@@ -113,4 +112,21 @@ nav {
 nav a {
     display: block;
 
+}
+.active {
+    color: var(--orange);
+}
+
+/* Buttons */
+
+.cta {
+    background-color: var(--orange);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid var(--text-background);
+    display:inline-block;
+    margin-top:15px;
+}
+.cta:hover {
+    background-color: var(--lightblue);
 }
