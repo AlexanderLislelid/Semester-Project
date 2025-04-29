@@ -6,6 +6,10 @@
     --text-background: #1A1D2B;
     --white: #FFFFFF;
     --black: #000000;
+    --fire: #FE7F7F;
+    --water: #7B9AFE;
+    --wind: #C9F8FF;
+    --earth: #F4AD32;
 
     /* Fonts */
     --paragraph: 'Rubik', 'Open Sans', 'Helvetica Neue', sans-serif;
