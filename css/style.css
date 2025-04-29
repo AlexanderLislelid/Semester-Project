@@ -1,14 +1,12 @@
-
-
-
-
-
-
-
-
-
-
-
+.slogan p {
+    font-size: 0.9rem;
+    color:var(--orange);
+    text-align: center;
+}
+.slogan {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 
 
