@@ -1,0 +1,93 @@
+@import "/css/variables.css";
+
+/* Global Styles */
+
+* { 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box; 
+    }
+
+/* Typography */
+
+h1, h2, h3, h4, a {
+    font-family: var(--heading);   
+}
+p {
+    font-family: var(--paragraph);
+    font-size: var(--text-base);
+    font-weight: var(--regular);
+}
+h1, h2, h3, a {
+    text-transform: uppercase;
+}
+h1, h2, p {
+    color: var(--white);
+}
+h1, h2 {
+    font-weight: var(--bold);
+    font-size: var(--text-l);
+    text-align: center;
+}
+h4 {
+    text-transform: capitalize;
+    font-weight: var(--light);
+}
+h3, h4 {
+    color: var(--orange);
+    font-size: var(--text-med);
+}
+a {
+    text-decoration: none;
+    color: var(--lightblue);
+    font-size: var(--text-med);
+    font-weight: var(--bold);
+}
+a:hover {
+    color: var(--orange);
+}
+
+/* Main */
+header img {
+    max-width: 45px;
+}
+
+main {
+    background-color: var(--background);
+}
+main img {
+    max-width: 620px;
+}
+footer, nav, header {
+    background-color: var(--text-background);
+}
+
+/* Burger menu */
+
+.hamburger-icon {
+    color: var(--lightblue);
+}
+
+nav, #menu-checkbox {
+    display:none;
+}
+#menu-checkbox:checked ~ nav {
+    display:block;
+    position: absolute;
+    
+}
+
+#menu-checkbox:checked ~ nav a {
+    color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+nav {
+    position:absolute;
+    
+}
+nav a {
+    display: block;
+
+}

@@ -19,10 +19,10 @@
     --text-med: 1.125rem;    /* 18px */
     --text-base: 1rem;      /* 16px */
     
-    --weight-light: 300;
-    --weight-regular: 400;
-    --weight-medium: 500;
-    --weight-semibold: 600;
-    --weight-bold: 700;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
     
 }
