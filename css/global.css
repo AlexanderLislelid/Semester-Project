@@ -32,7 +32,6 @@ h1, h2 {
 }
 h2 {
     background-color: var(--text-background);
-    margin-top: 50px;
 }
 h4 {
     text-transform: capitalize;
@@ -66,6 +65,12 @@ main {
 main img {
     max-width: 100%;
 }
+.fullwidth {
+  margin: 0;
+  padding: 0;
+  display: block;
+  max-width: 100%;
+}
 footer, nav, header {
     background-color: var(--text-background);
 }
@@ -86,6 +91,9 @@ footer, nav, header {
     text-align: center;
     position: relative;
     bottom:8px;
+}
+.slogan2 {
+    margin-bottom:40px;
 }
 
 /* Burger menu */

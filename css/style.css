@@ -94,12 +94,15 @@
     padding-left:25px;
     color: var(--orange);
 }
-.sky-above p, .vr-spacewalk p {
-    padding:25px;
-    line-height: 1.25;
+
+.sky-above p, .vr-spacewalk p, .evolution p {
+    padding-left:25px;
+    padding-right:25px;
+    padding-bottom: 25px;
+    line-height:1.25;
 }
 .sky-above img {
-    max-width: 90%;
+    max-width: 85%;
     margin-right:20px;
     margin-bottom:20px;
     border-radius: 12px;
@@ -116,6 +119,60 @@
 .vr-spacewalk {
     background-color: var(--text-background);
 }
+
+/* Evolution */
+
+.evolution {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: var(--text-background);
+}
+.evolution img {
+
+    max-width: 85%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius:12px;
+    border: 2px solid var(--orange);
+}
+
+/* Robotics */
+
+
+.robotics {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.robotics p {
+    padding:10px;
+    line-height:1.25;
+}
+.robotics-card {
+    padding:15px;
+    margin:25px;
+    background-color: var(--text-background);
+    border-radius: 12px;
+    
+}
+.robotics img {
+    max-width: 85%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius:12px;
+    border: 2px solid var(--text-background);
+}
+.robotics-card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.robotics-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
 /* Footer */
 
 footer {
