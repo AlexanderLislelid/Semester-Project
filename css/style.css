@@ -80,8 +80,42 @@
 
 /* Space Zone */
 
-
-
+.sky-above {
+    display:flex;
+    flex-direction: column;
+    background-color: var(--text-background);
+    padding-left:10px;
+    align-items: center;
+}
+.section-headline {
+    padding-bottom:15px;
+    padding-top:15px;
+    text-align: left;
+    padding-left:25px;
+    color: var(--orange);
+}
+.sky-above p, .vr-spacewalk p {
+    padding:25px;
+    line-height: 1.25;
+}
+.sky-above img {
+    max-width: 90%;
+    margin-right:20px;
+    margin-bottom:20px;
+    border-radius: 12px;
+    border: 2px solid var(--orange);
+}
+.section-headline2 {
+    margin:0px;
+    padding-bottom:15px;
+    padding-top:15px;
+    text-align: left;
+    padding-left:25px;
+    color: var(--orange);
+}
+.vr-spacewalk {
+    background-color: var(--text-background);
+}
 /* Footer */
 
 footer {
