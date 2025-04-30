@@ -69,6 +69,13 @@ main img {
 footer, nav, header {
     background-color: var(--text-background);
 }
+.extra-offers {
+    color:var(--lightblue)
+}
+.highlight-orange {
+    text-transform: uppercase;
+    color:var(--orange)
+}
 
 /* Burger menu */
 
