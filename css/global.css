@@ -76,6 +76,17 @@ footer, nav, header {
     text-transform: uppercase;
     color:var(--orange)
 }
+.slogan2 h1 {
+    font-size: var(--text-2xl);
+    padding-top:40px;
+}
+.slogan2 p {
+    font-size: 0.9rem;
+    color:var(--orange);
+    text-align: center;
+    position: relative;
+    bottom:8px;
+}
 
 /* Burger menu */
 
