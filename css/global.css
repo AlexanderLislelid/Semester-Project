@@ -17,7 +17,6 @@ p {
     font-family: var(--paragraph);
     font-size: var(--text-base);
     font-weight: var(--regular);
-    
 }
 h1, h2, h3, a {
     text-transform: uppercase;

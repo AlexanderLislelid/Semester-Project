@@ -173,6 +173,7 @@
 }
 
 /* Booking & prices */
+
 .extra-offers {
     text-transform: capitalize;
 }
@@ -201,6 +202,21 @@
 .form-input input {
     margin:5px;
     padding:5px;
+}
+
+/* About */
+
+.about p {
+    padding:25px;
+}
+.visit {
+    text-align: center;
+    padding: 25px;
+    line-height: 1.5;
+}
+.hours {
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 /* Footer */
