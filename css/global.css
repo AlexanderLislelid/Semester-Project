@@ -56,6 +56,11 @@ nav a {
 nav a:hover {
     color: var(--orange);
 }
+.form label {
+    font-family: var(--paragraph);
+    color: var(--white);
+    font-weight: var(--light);
+}
 
 /* Main */
 

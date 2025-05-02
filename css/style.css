@@ -173,9 +173,35 @@
 }
 
 /* Booking & prices */
-
-
-
+.extra-offers {
+    text-transform: capitalize;
+}
+.extras {
+    margin: 40px;
+}
+.highlight-orange {
+    font-weight: var(--semibold);
+}
+.form {
+    display:flex;
+    flex-direction:column;
+}
+.form p {
+    margin:25px;
+    text-align: center;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.form-input input {
+    margin:5px;
+    padding:5px;
+}
 
 /* Footer */
 
