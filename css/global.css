@@ -138,6 +138,10 @@ nav {
     position:absolute;
     
 }
+.navbar {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
 
 nav a {
     display: block;
@@ -192,4 +196,5 @@ nav a {
         max-width:1200px;
         margin:0 auto;
     }
+
 }
