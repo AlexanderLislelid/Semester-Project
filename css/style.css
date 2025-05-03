@@ -218,6 +218,10 @@
     padding-top: 25px;
     padding-bottom: 20px;
 }
+.map img{
+    border-radius: 12px;
+    border:1px solid var(--lightblue);
+}
 
 /* Footer */
 
@@ -229,42 +233,6 @@ footer {
     gap:20px;
     padding-top:40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

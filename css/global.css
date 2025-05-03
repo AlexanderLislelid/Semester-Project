@@ -160,3 +160,32 @@ nav a {
 .cta:hover {
     background-color: var(--lightblue);
 }
+
+
+/* Media */
+
+@media (min-width: 621px) {
+    
+    h1, h2 {
+        font-size: var(--text-1xl);
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+}
+@media (min-width: 900px) {
+
+    h1,h2 {
+
+        font-size: var(--text-2xl);
+    }
+    
+    body {
+
+        background-color: var(--background);
+        max-width:1000px;
+        margin:0 auto;
+    }
+}
