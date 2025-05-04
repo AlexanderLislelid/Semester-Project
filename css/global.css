@@ -185,7 +185,6 @@ nav a {
 @media (min-width: 900px) {
 
     h1,h2 {
-
         font-size: var(--text-2xl);
     }
     .slogan p {

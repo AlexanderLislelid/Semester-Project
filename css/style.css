@@ -11,8 +11,8 @@
     top:3px;
 }
 .slogan {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .museum-intro p {
     padding: 20px 25px;
@@ -42,24 +42,24 @@
     gap: 30px;
     padding: 30px;
 }
-.exhibition-card, .events-card, .for-kids-card {
+.card {
     background-color: var(--text-background);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.exhibition-card:hover, .events-card:hover, .for-kids-card:hover {
+.card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-.exhibition-card img, .events-card img, .for-kids-card img {
+.card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin: 1rem 0;
 }
-.exhibition-card p, .events-card p, .for-kids-card p {
+.card p {
     line-height: 1.5;
 }
 .highlight {
@@ -69,7 +69,7 @@
 .events h3, .for-kids h3 {
     padding-bottom:10px;
 }
-.for-kids-card a {
+.message {
     color: var(--lightblue);
     font-family: var(--paragraph);
     font-weight: var(--medium);
