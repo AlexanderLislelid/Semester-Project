@@ -43,15 +43,21 @@
     padding: 30px;
 }
 .card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
     background-color: var(--text-background);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px rgba(68, 188, 221, 0.3);
 }
 .card img {
     width: 100%;
@@ -76,6 +82,9 @@
     text-transform: capitalize;
     text-decoration: underline;
     margin-top: 10px;
+}
+.for-kids {
+    padding-bottom: 100px;
 }
 
 /* Space Zone */
@@ -233,7 +242,23 @@ footer {
     gap:20px;
     padding-top:40px;
 }
-
+footer i {
+    color:var(--lightblue);
+    font-size: 1.3rem;
+    margin:10px;
+    padding-bottom:40px;
+}
+footer h4, footer p {
+    text-align: center;
+}
+footer h4 {
+    margin-bottom:10px;
+}
+footer p {
+    font-size: var(--text-base);
+    line-height: 1.8;
+    font-weight: var(--light);
+}
 
 
 
@@ -256,6 +281,73 @@ footer {
     nav a {
         display:inline-block;
         background: none;
+    }
+    
+}
+
+/* Tablet */
+
+@media (min-width: 621px) {
+
+    h1 {
+        font-size: var(--text-2xl);
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .slogan p {
+            left:-210px;
+        }
+    .museum-intro {
+        margin:50px;
+}
+    .museum-intro p {
+        font-size: var(--text-med);
+    }
+    .exhibitions, .events, .for-kids {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .homepage h2 {
+        font-size: 1.8rem;
+        background-color: var(--background);
+        color: var(--orange);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+
+}
+
+
+/* Desktop */
+
+@media (min-width: 900px) {
+
+
+    h1, h2 {
+        font-size: var(--text-2xl);
+    }
+    .slogan p {
+        left:-210px;
+    }
+    body {
+        background-color: var(--background);
+        max-width:1400px;
+        margin:0 auto;
+    }
+    .exhibitions, .events, .for-kids {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero {
+        display:flex;
+        flex-direction: column;
+    }
+    .hero img {
+        width:100vw;
+        height:70vh;
     }
     
 }

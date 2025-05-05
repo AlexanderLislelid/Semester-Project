@@ -166,34 +166,3 @@ nav a {
 }
 
 
-/* Media */
-
-@media (min-width: 621px) {
-
-    h1, h2 {
-        font-size: var(--text-1xl);
-    }
-    .navbar{
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-    }
-    .slogan p {
-        left:-125px;
-        }
-}
-@media (min-width: 900px) {
-
-    h1,h2 {
-        font-size: var(--text-2xl);
-    }
-    .slogan p {
-        left:-210px;
-    }
-    body {
-        background-color: var(--background);
-        max-width:1200px;
-        margin:0 auto;
-    }
-
-}
