@@ -200,14 +200,27 @@
 }
 
 /* Events */
-
-.upcoming_events h2 {
-    color:var(--orange);
-    background-color: var(--background);
+.events_background {
+    background-image: url(../images/events/happy_kids.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.events_headline {
+    color: var(--orange);
+    padding: 10px
+}
+.upcoming_events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card_events img {
-    max-width:180px;
-    padding-right:15px;
+    width:180px;
+    height:165px;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 .card_events {
@@ -230,30 +243,28 @@
     font-size: 0.8rem;
     padding:5px;
 }
-.card_events i {
+.card_events i, .young_stars i, .holiday_clubs i {
     color: var(--lightblue);
     padding-right:10px;
 }
-
-.form {
+.clubs {
     display:flex;
-    flex-direction:column;
-}
-.form p {
-    margin:25px;
-    text-align: center;
-}
-.form-input {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 20px;
+    gap:10px;
 }
-.form-input input {
-    margin:5px;
-    padding:5px;
+.young_stars_info p, .holiday_clubs_info p{
+    margin:25px;
+}
+.young_stars img, .holiday_clubs img {
+    max-width: 100%;
+    margin-top:25px;
+}
+.young_stars i, .holiday_clubs i {
+    margin-left:25px;
+    line-height: 1.5;
+}
+.young_stars p, .holiday_clubs p {
+    color: var(--orange);
 }
 
 /* About */
@@ -310,6 +321,21 @@ footer p {
 
 /* MEDIA QUERIES*/
 
+
+/* event cards */
+
+@media (min-width: 420px) {
+    .card_events img {
+        padding-right:20px;
+    }
+    .card_events {
+        flex-direction:row;
+        min-width: 380px;
+        max-width:400px;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
 /* Mobile Burger Menu */
