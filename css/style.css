@@ -155,11 +155,17 @@
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius:12px;
-    border: 2px solid var(--orange);
 }
+
 
 /* Robotics */
 
+.robotics_background {
+    background-image: url(../images/exhibits/robotics_bg_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .robotics {
     display:flex;
@@ -364,7 +370,10 @@ footer p {
     }
     .evolution {
         display:flex;
-        flex-direction: column;
+    }
+    .dodo {
+        display:flex;
+        flex-direction: row;
     }
 }
 
