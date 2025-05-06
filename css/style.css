@@ -88,6 +88,12 @@
 }
 
 /* Space Zone */
+.space_background {
+    background-image: url(../images/exhibits/daniel-olah-dFA5XycbhoQ-unsplash\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .sky-above {
     display:flex;
@@ -115,7 +121,6 @@
     margin-right:20px;
     margin-bottom:20px;
     border-radius: 12px;
-    border: 2px solid var(--orange);
 }
 .section-headline2 {
     margin:0px;
@@ -282,12 +287,17 @@ footer p {
         display:inline-block;
         background: none;
     }
+    .navbar {
+        border-bottom: 1px solid var(--orange);
+    }
     
 }
 
 /* Tablet */
 
 @media (min-width: 621px) {
+
+    /* Homepage */
 
     h1 {
         font-size: var(--text-2xl);
@@ -318,7 +328,30 @@ footer p {
         text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     }
     
-
+    /* Exhibitions */
+   
+    .sky-above img {
+        max-width: 60%;
+        margin-left:20px;
+    }
+    .sky-above {
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .vr-spacewalk {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+        padding-bottom: 40px;
+   
+    }
+    .vr-spacewalk img {
+        margin-right: 25px;
+        max-width: 45%;
+        border-radius: 12px;
+    }
 }
 
 
@@ -326,6 +359,7 @@ footer p {
 
 @media (min-width: 900px) {
 
+    /* Homepage */
 
     h1, h2 {
         font-size: var(--text-2xl);
@@ -350,4 +384,7 @@ footer p {
         height:70vh;
     }
     
+    /* Exhibitions */
+
+
 }
