@@ -136,6 +136,13 @@
 
 /* Evolution */
 
+.evolution_background {
+    background-image: url(../images/exhibits/dna_figma_edit.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .evolution {
     display:flex;
     flex-direction:column;
@@ -351,6 +358,13 @@ footer p {
         margin-right: 25px;
         max-width: 45%;
         border-radius: 12px;
+    }
+    .evolution img {
+        max-width:50%
+    }
+    .evolution {
+        display:flex;
+        flex-direction: column;
     }
 }
 
