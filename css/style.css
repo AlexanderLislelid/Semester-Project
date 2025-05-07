@@ -1,5 +1,10 @@
 /* Museum Intro */
-
+.homepage_background {
+    background-image: url(../images/homepage/csm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .slogan p {
     font-size: 0.9rem;
     color:var(--orange);
@@ -105,8 +110,7 @@
 .section-headline {
     padding-bottom:15px;
     padding-top:15px;
-    text-align: left;
-    padding-left:25px;
+    text-align: center;
     color: var(--orange);
 }
 
@@ -126,8 +130,7 @@
     margin:0px;
     padding-bottom:15px;
     padding-top:15px;
-    text-align: left;
-    padding-left:25px;
+    text-align: center;
     color: var(--orange);
 }
 .vr-spacewalk {
@@ -150,14 +153,20 @@
     background-color: var(--text-background);
 }
 .evolution img {
-
-    max-width: 85%;
+    max-width: 300px;
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius:12px;
 }
 
-
+.dodo, .t-rex, .mammoth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mammoth {
+    padding-bottom: 40px;
+}
 /* Robotics */
 
 .robotics_background {
@@ -167,13 +176,14 @@
     background-repeat: no-repeat;
 }
 
-.robotics {
+.robotics, .robotics-grid  {
     display:flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--text-background);
 }
 .robotics p {
-    padding:10px;
+    padding:25px;
     line-height:1.25;
 }
 .robotics-card {
@@ -181,9 +191,10 @@
     margin:25px;
     background-color: var(--text-background);
     border-radius: 12px;
+    max-width:400px;
     
 }
-.robotics img {
+.robotics img, .robotics-grid img {
     max-width: 85%;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -196,7 +207,11 @@
 }
 .robotics-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px rgba(64, 170, 196, 0.3);
+}
+
+.robotics-grid p {
+    padding:15px;
 }
 
 /* Events */
@@ -395,6 +410,10 @@ footer p {
     
     /* Exhibitions */
    
+    .section-headline, .section-headline2 {
+        text-align: center;
+        padding-bottom:30px;
+    }
     .sky-above img {
         max-width: 60%;
         margin-left:20px;
@@ -423,10 +442,46 @@ footer p {
     .evolution {
         display:flex;
     }
+    .t-rex img {
+        margin-left: 25px;
+    }
+    .dodo img, .mammoth img {
+        margin-right:25px;
+    }
     .dodo {
         display:flex;
         flex-direction: row;
+        align-items: center;
     }
+    .t-rex {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .dodo, .t-rex, .mammoth {
+        max-width:900px;
+    }
+    .mammoth {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .robotics-grid {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .robotics {
+        display:flex;
+        flex-direction: row;
+        align-items: start;
+        
+    }
+    .robotics img {
+        max-width: 40%;
+        margin-right: 25px;
+    }
+    /* Events */
+    
 }
 
 
@@ -436,7 +491,7 @@ footer p {
 
     /* Homepage */
 
-    h1, h2 {
+    h1 {
         font-size: var(--text-2xl);
     }
     .slogan p {
@@ -460,6 +515,18 @@ footer p {
     }
     
     /* Exhibitions */
+    .sky-above p, .vr-spacewalk p, .dodo p, .t-rex p, .mammoth p, .robotics p {
+        font-size: 1.2rem;
+        line-height: 1.3;
+    }
+    .robotics-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
-
+@media (min-width: 1300px) {
+    .upcoming_events {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
