@@ -283,7 +283,12 @@
 }
 
 /* About */
-
+.about_background {
+    background-image: url(../images/homepage/csm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .about p {
     padding:25px;
 }
@@ -522,6 +527,7 @@ footer p {
     .robotics-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+   
 }
 
 @media (min-width: 1300px) {
