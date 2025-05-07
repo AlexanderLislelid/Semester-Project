@@ -487,6 +487,22 @@ footer p {
     }
     /* Events */
     
+
+
+
+
+    /* About */
+   
+    .about_grid {
+        display: grid;
+        margin:0;
+      }
+      
+      .about_grid img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
 }
 
 
@@ -526,6 +542,11 @@ footer p {
     }
     .robotics-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+    /* About */
+    .about_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
     }
    
 }
