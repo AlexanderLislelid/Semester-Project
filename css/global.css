@@ -102,6 +102,13 @@ footer, nav, header {
 footer {
     border-top: 1px solid var(--orange);
 }
+.contact_us a {
+    color: var(--white);
+    text-transform: capitalize;
+    font-weight: var(--light);
+    text-decoration: underline;
+    text-decoration-color: var(--lightblue) ;
+}
 
 /* Burger menu */
 
