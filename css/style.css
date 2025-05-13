@@ -23,6 +23,8 @@
 }
 .museum-intro p {
     padding: 20px 25px;
+    max-width: 700px;
+    margin: auto;
 }
 .fire {
     color: var(--fire);
@@ -304,12 +306,16 @@
 }
 
 /* About */
+
 .about_background {
     background-image: url(../images/homepage/csm.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-bottom:30px;
+}
+.about h2 {
+    color: var(--orange);
 }
 .about p {
     padding:25px;
@@ -333,6 +339,9 @@
 .visit h2 {
     margin-bottom:25px;
     color: var(--orange);
+}
+.about img {
+    margin-bottom:80px;
 }
 
 /* Signup - Page */
