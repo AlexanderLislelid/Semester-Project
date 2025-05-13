@@ -331,7 +331,9 @@
 }
 .map {
     margin:10px;
-
+}
+.map iframe {
+    width: 100%;
 }
 .visit {
     background-color: var(--text-background);
