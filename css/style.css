@@ -323,17 +323,72 @@
     padding-top: 25px;
     padding-bottom: 20px;
 }
-.map img{
-    border-radius: 12px;
-    border:1px solid var(--lightblue);
+.map {
+    margin:10px;
+
 }
-/* Signup- Page is under construction */
-.signup {
-    display:flex;
+.visit {
+    background-color: var(--text-background);
+}
+.visit h2 {
+    margin-bottom:25px;
+    color: var(--orange);
+}
+
+/* Signup - Page */
+
+.signup_form {
+    background-color: var(--text-background);
+    padding: 40px 30px;
+    max-width: 600px;
+    margin: 60px auto;
+    border-radius: 12px;
+}
+
+.signup_form h2 {
+    color: var(--orange);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.signup_form form {
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top:100px;
-    min-height:70vh;
+    gap: 20px;
+}
+
+.signup_form label {
+    font-weight: var(--medium);
+    color: var(--lightblue);
+    font-family: var(--paragraph);
+    letter-spacing: 5%;
+}
+
+.signup_form input, .signup_form select, .signup_form textarea {
+    padding: 12px;
+    border: 2px solid var(--lightblue);
+    border-radius: 8px;
+    font-family: var(--paragraph);
+    font-size: 1rem;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.signup_form button {
+    font-family: var(--heading);
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: var(--orange);
+    color: var(--black);
+    font-weight: var(--bold);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.signup_form button:hover {
+    background-color: var(--lightblue);
 }
 
 
@@ -449,7 +504,10 @@ footer p {
    
     .section-headline, .section-headline2 {
         text-align: center;
-        padding-bottom:30px;
+        font-size: 1.5rem;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     }
     .sky-above img {
         max-width: 60%;
@@ -521,8 +579,6 @@ footer p {
     
 
 
-
-
     /* About */
    .about {
     padding-left: 100px;
@@ -538,6 +594,11 @@ footer p {
    .about_grid img{
     border-radius: 12px;
    }
+   .map{
+    margin-left: 100px;
+    margin-right:100px;
+   }
+   
 }
 
 
@@ -555,9 +616,13 @@ footer p {
     }
     body {
         background-color: var(--background);
+    }
+    main {
+        background-color: var(--background);
         max-width:1400px;
         margin:0 auto;
     }
+    
     .exhibitions, .events, .for-kids {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -578,6 +643,9 @@ footer p {
     .sky-above p, .vr-spacewalk p, .dodo p, .t-rex p, .mammoth p, .robotics p {
         font-size: 1.2rem;
         line-height: 1.3;
+    }
+    .sky-above img {
+        height:300px;
     }
     
     .robotics-grid {

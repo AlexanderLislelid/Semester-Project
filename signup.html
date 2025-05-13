@@ -49,8 +49,32 @@
         <a href="about.html">about</a>
       </nav>
     </header>
-    <main class="signup">
-      <h1>Page is under construction. Stay tuned</h1>
+    <main>
+      <section class="signup_form">
+        <h2>Sign Up for an Event</h2>
+        <form
+          action="https://formsubmit.co/aardal-museum@gmail.com"
+          method="POST"
+        >
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="event">Choose an Event:</label>
+          <select id="event" name="event" required>
+            <option value="">-- Select an event --</option>
+            <option value="Night At The Museum">Night At The Museum</option>
+            <option value="Aeronautics">Aeronautics Lecture</option>
+            <option value="Energetica">Energetica Exhibition</option>
+          </select>
+          <button type="submit">Sign Up</button>
+          <label for="message">Anything you'd like to tell us?</label>
+          <textarea id="message" name="message" rows="8"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
     </main>
     <footer>
       <div class="contact_us">
