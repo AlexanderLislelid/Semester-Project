@@ -592,8 +592,11 @@ footer p {
     }
     /* About */
     .about {
-        padding-left: 150px;
-        padding-right:150px;
+        padding-left: 200px;
+        padding-right:200px;
+    }
+    .about img {
+        margin-bottom: 50px;
     }
    
 }
