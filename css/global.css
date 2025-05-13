@@ -125,7 +125,7 @@ nav, #menu-checkbox {
 #menu-checkbox:checked ~ nav {
     display:block;
     position: absolute;
-    top:4%;
+    top:4.5%;
     padding-bottom: 10px;
     z-index: 1000;
     
@@ -163,6 +163,7 @@ nav a {
 .active {
     color: var(--orange);
 }
+
 
 /* Buttons */
 

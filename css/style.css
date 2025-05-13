@@ -334,6 +334,7 @@
 }
 .map iframe {
     width: 100%;
+  
 }
 .visit {
     background-color: var(--text-background);
@@ -627,10 +628,15 @@ footer p {
     }
     body {
         background-color: var(--background);
+
     }
     main {
         background-color: var(--background);
         max-width:1400px;
+        margin:0 auto;
+    }
+    header {
+        max-width: 1400px;
         margin:0 auto;
     }
     
@@ -641,10 +647,7 @@ footer p {
         display:flex;
         flex-direction: column;
     }
-    .hero img {
-        width:100vw;
-        height:70vh;
-    }
+   
     
     /* Exhibitions */
     .sky-above, .vr-spacewalk, .robotics, .clubs {
