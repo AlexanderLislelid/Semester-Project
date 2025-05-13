@@ -200,6 +200,10 @@ nav a {
     margin:10px auto;
     border-radius: 12px;
     max-width: 600px;
+    user-select: none;
+}
+.info-tab label:hover {
+    box-shadow: 0 8px 16px rgba(68, 188, 221, 0.3);
 }
 
 .info-tab label:before {
