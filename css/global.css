@@ -123,13 +123,15 @@ footer {
     font-weight: var(--light);
     text-transform: capitalize;
     color: var(--white);
-    line-height: 1.8rem;
+    line-height: 1.7rem;
 }
 
 /* Burger menu */
 
 .hamburger-icon {
     color: var(--lightblue);
+    display: inline-block;
+    padding: 20px;
 }
 
 nav, #menu-checkbox {
@@ -153,11 +155,6 @@ nav, #menu-checkbox {
 
 #menu-checkbox:checked ~ nav a:hover {
     color: var(--orange);
-}
-
-.hamburger-icon {
-    display: inline-block;
-    padding: 20px;
 }
 
 nav {
