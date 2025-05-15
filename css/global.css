@@ -102,6 +102,9 @@ footer, nav, header {
 .slogan2 {
     padding-bottom: 40px;
 }
+
+/* Footer */
+
 footer {
     border-top: 1px solid var(--orange);
 }
@@ -111,6 +114,16 @@ footer {
     font-weight: var(--light);
     text-decoration: underline;
     text-decoration-color: var(--lightblue) ;
+}
+.get_involved a {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--paragraph);
+    font-weight: var(--light);
+    text-transform: capitalize;
+    color: var(--white);
+    line-height: 1.8rem;
 }
 
 /* Burger menu */

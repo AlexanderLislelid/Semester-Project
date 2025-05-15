@@ -1,5 +1,10 @@
 /* Museum Intro */
 
+.logo {
+    width:55px;
+    height:50px;
+}
+
 .homepage_background {
     background-image: url(../images/homepage/csm.jpg);
     background-size: cover;
@@ -403,6 +408,25 @@
     background-color: var(--lightblue);
 }
 
+/* Get involved */
+
+.construction {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin:50px;
+    height: 70vh;
+}
+.construction a {
+    color: var(--orange);
+    font-size: 1.2rem;
+    background-color: var(--text-background);
+    padding:10px 20px;
+    border:1px solid var(--lightblue);
+    border-radius: 12px;
+
+}
 
 
 /* Footer */
@@ -439,6 +463,20 @@ footer p {
 
 
 /* MEDIA QUERIES*/
+
+/* Nav logo */
+
+@media (max-width: 619px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+}
+    
+
 
 
 /* event cards */
@@ -482,7 +520,9 @@ footer p {
 @media (min-width: 621px) {
 
     /* Homepage */
-
+    .logo{
+        display:none;
+    }
     h1 {
         font-size: var(--text-2xl);
     }
