@@ -80,6 +80,22 @@
   color: var(--earth);
 }
 
+.elements__orb--wind .elements__tag {
+  text-shadow: 0 0 12px var(--wind);
+}
+
+.elements__orb--water .elements__tag {
+  text-shadow: 0 0 12px var(--water);
+}
+
+.elements__orb--fire .elements__tag {
+  text-shadow: 0 0 12px var(--fire);
+}
+
+.elements__orb--earth .elements__tag {
+  text-shadow: 0 0 12px var(--earth);
+}
+
 /* element orbit anim */
 
 .elements__orb--wind {
@@ -96,24 +112,6 @@
 
 .elements__orb--earth {
   animation: orbit-earth 20s linear infinite;
-}
-
-/* different elements */
-
-.elements__orb--wind .elements__tag {
-  text-shadow: 0 0 12px var(--wind);
-}
-
-.elements__orb--water .elements__tag {
-  text-shadow: 0 0 12px var(--water);
-}
-
-.elements__orb--fire .elements__tag {
-  text-shadow: 0 0 12px var(--fire);
-}
-
-.elements__orb--earth .elements__tag {
-  text-shadow: 0 0 12px var(--earth);
 }
 
 /* startpos */
