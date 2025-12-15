@@ -12,25 +12,44 @@
 /* core */
 
 .elements__core {
-  width: 20%;
+  position: relative;
+  width: 35%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
+
   background: radial-gradient(
-    circle at 30% 30%,
-    #ffffff 0%,
-    #dfe7ff 35%,
-    #0e0f10 100%
-  );
-  filter: blur(0.2px);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+      circle at 35% 30%,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(255, 255, 255, 0) 35%
+    ),
+    radial-gradient(circle at 60% 55%, #2e7d6f 0%, #1e4f78 45%, #0b1f2a 75%);
+
+  box-shadow: inset -12px -18px 30px rgba(0, 0, 0, 0.45),
+    inset 10px 8px 18px rgba(255, 255, 255, 0.18),
+    0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.elements__core {
+  animation: planetSpin 60s linear infinite;
+}
+
+@keyframes planetSpin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* orbit-bane */
 .elements__orb {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  animation: orbit 10s linear infinite;
+  inset: 0;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+}
+
+.elements__orb i {
+  font-size: 2.2rem;
 }
 
 /* element */
@@ -39,51 +58,62 @@
   position: absolute;
   top: 6%;
   left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 14px;
+  padding: 4px;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  background: rgba(255, 255, 255, 0.08);
+  transform: translateX(-50%);
   backdrop-filter: blur(10px);
-  color: #fff;
-  font-family: var(--paragraph);
-  font-size: 0.85rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.fa-solid.fa-wind {
+  color: var(--wind);
+}
+
+.fa-solid.fa-fire {
+  color: var(--fire);
+}
+
+.fa-solid.fa-water {
+  color: var(--water);
+}
+
+.fa-solid.fa-mound {
+  color: var(--earth);
 }
 
 /* element orbit anim */
 
 .elements__orb--wind {
-  animation-duration: 9s;
+  animation: orbit-wind 9s linear infinite;
 }
+
 .elements__orb--water {
-  animation-duration: 12s;
-  animation-timing-function: ease-in-out;
+  animation: orbit-water 14s linear infinite;
 }
+
 .elements__orb--fire {
-  animation-duration: 8s;
+  animation: orbit-fire 6s linear infinite;
 }
+
 .elements__orb--earth {
-  animation-duration: 14s;
-  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: orbit-earth 20s linear infinite;
 }
 
 /* different elements */
 
 .elements__orb--wind .elements__tag {
-  text-shadow: 0 0 12px rgba(200, 220, 255, 0.45);
+  text-shadow: 0 0 12px var(--wind);
 }
 
 .elements__orb--water .elements__tag {
-  text-shadow: 0 0 12px rgba(140, 220, 255, 0.45);
+  text-shadow: 0 0 12px var(--water);
 }
 
 .elements__orb--fire .elements__tag {
-  text-shadow: 0 0 12px rgba(255, 170, 80, 0.55);
+  text-shadow: 0 0 12px var(--fire);
 }
 
 .elements__orb--earth .elements__tag {
-  text-shadow: 0 0 12px rgba(160, 255, 170, 0.25);
+  text-shadow: 0 0 12px var(--earth);
 }
 
 /* startpos */
@@ -98,16 +128,44 @@
   transform: rotate(270deg);
 }
 
-@keyframes orbit {
+@keyframes orbit-wind {
+  from {
+    transform: rotate(0deg);
+  }
   to {
     transform: rotate(360deg);
   }
 }
 
-/* respect reduced motion */
+@keyframes orbit-water {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(450deg);
+  }
+}
 
-@media (prefers-reduced-motion: reduce) {
-  .elements__orb {
-    animation: none;
+@keyframes orbit-fire {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(540deg);
+  }
+}
+
+@keyframes orbit-earth {
+  from {
+    transform: rotate(270deg);
+  }
+  to {
+    transform: rotate(630deg);
+  }
+}
+
+@media (max-width: 400px) {
+  .elements i {
+    font-size: 1.8rem;
   }
 }
