@@ -30,7 +30,7 @@
 }
 
 .elements__core {
-  animation: planetSpin 60s linear infinite;
+  animation: planetSpin 30s linear infinite;
 }
 
 @keyframes planetSpin {
