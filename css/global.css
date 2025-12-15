@@ -1,4 +1,4 @@
-@import "./css/variables.css";
+@import "./variables.css";
 
 /* Global Styles */
 
@@ -138,6 +138,12 @@ header {
 
 footer {
   border-top: 1px solid var(--orange);
+}
+
+.contact_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact_us a {

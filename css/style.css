@@ -1,731 +1,751 @@
 /* Museum Intro */
 
 .logo {
-    width:55px;
-    height:50px;
+  width: 55px;
+  height: 50px;
 }
 
 .homepage_background {
-    background-image: url(../images/homepage/csm.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom:30px;
+  background-image: url(../images/homepage/csm.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 .slogan p {
-    font-size: 0.9rem;
-    color:var(--orange);
-    text-align: center;
-    margin:0px;
-    padding:0px;
-    position: relative;
-    right: 95px;
-    top:3px;
+  font-size: 0.9rem;
+  color: var(--orange);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  right: 95px;
+  top: 3px;
 }
 .slogan {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .museum-intro p {
-    padding: 20px 25px;
-    max-width: 700px;
-    margin: auto;
+  padding: 20px 25px;
+  max-width: 700px;
+  margin: auto;
 }
 .fire {
-    color: var(--fire);
-    font-weight: var(--semibold);
+  color: var(--fire);
+  font-weight: var(--semibold);
 }
 .wind {
-    color: var(--wind);
-    font-weight: var(--semibold);
+  color: var(--wind);
+  font-weight: var(--semibold);
 }
 .water {
-    color: var(--water);
-    font-weight: var(--semibold);
+  color: var(--water);
+  font-weight: var(--semibold);
 }
 .earth {
-    color: var(--earth);
-    font-weight: var(--semibold);
+  color: var(--earth);
+  font-weight: var(--semibold);
 }
-
 
 /* Exhibitions , events and for kids */
 
-.exhibitions, .events, .for-kids {
-    display: grid;
-    gap: 30px;
-    padding: 30px;
+.exhibitions,
+.events,
+.for-kids {
+  display: grid;
+  gap: 30px;
+  padding: 30px;
 }
 .card {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap:10px;
-    background-color: var(--text-background);
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: var(--text-background);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(68, 188, 221, 0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(68, 188, 221, 0.3);
 }
 .card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin: 1rem 0;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem 0;
 }
 .card p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 .highlight {
-    color: var(--lightblue);
-    font-weight: var(--bold);
+  color: var(--lightblue);
+  font-weight: var(--bold);
 }
-.events h3, .for-kids h3 {
-    padding-bottom:10px;
+.events h3,
+.for-kids h3 {
+  padding-bottom: 10px;
 }
 .message {
-    color: var(--lightblue);
-    font-family: var(--paragraph);
-    font-weight: var(--medium);
-    text-transform: capitalize;
-    text-decoration: underline;
-    margin-top: 10px;
+  color: var(--lightblue);
+  font-family: var(--paragraph);
+  font-weight: var(--medium);
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin-top: 10px;
 }
 .for-kids {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 .navigate_events {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom:40px;
-    padding-left: 25px;
-    padding-right:25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .navigate_events a {
-    color: var(--orange);
-    font-size: x-large;
+  color: var(--orange);
+  font-size: x-large;
 }
 .navigate_events i {
-    color:var(--lightblue);
+  color: var(--lightblue);
 }
 
 /* Space Zone */
 .space_background {
-    background-image: url(../images/exhibits/daniel-olah-dFA5XycbhoQ-unsplash\(1\).jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom:30px;
+  background-image: url(../images/exhibits/daniel-olah-dFA5XycbhoQ-unsplash\(1\).jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
 .sky-above {
-    display:flex;
-    flex-direction: column;
-    background-color: var(--text-background);
-    padding-left:10px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--text-background);
+  padding-left: 10px;
+  align-items: center;
 }
 .section-headline {
-    padding-bottom:15px;
-    padding-top:15px;
-    text-align: center;
-    color: var(--orange);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  color: var(--orange);
 }
 
-.sky-above p, .vr-spacewalk p, .evolution p {
-    padding-left:25px;
-    padding-right:25px;
-    padding-bottom: 25px;
-    line-height:1.25;
+.sky-above p,
+.vr-spacewalk p,
+.evolution p {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  line-height: 1.25;
 }
 .sky-above img {
-    max-width: 85%;
-    margin-right:20px;
-    margin-bottom:20px;
-    border-radius: 12px;
+  max-width: 85%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
 }
 .section-headline2 {
-    margin:0px;
-    padding-bottom:15px;
-    padding-top:15px;
-    text-align: center;
-    color: var(--orange);
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  color: var(--orange);
 }
 .vr-spacewalk {
-    background-color: var(--text-background);
+  background-color: var(--text-background);
 }
 
 /* Evolution */
 
 .evolution_background {
-    background-image: url(../images/exhibits/dna_figma_edit.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom:30px;
+  background-image: url(../images/exhibits/dna_figma_edit.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
 .evolution {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    background-color: var(--text-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--text-background);
 }
 .evolution img {
-    max-width: 300px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-radius:12px;
+  max-width: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
 }
 
-.dodo, .t-rex, .mammoth {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.dodo,
+.t-rex,
+.mammoth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .mammoth {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 /* Robotics */
 
 .robotics_background {
-    background-image: url(../images/exhibits/robotics_bg_1920x1080.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom:30px;
+  background-image: url(../images/exhibits/robotics_bg_1920x1080.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
-.robotics, .robotics-grid  {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--text-background);
+.robotics,
+.robotics-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--text-background);
 }
 .robotics p {
-    padding:25px;
-    line-height:1.25;
+  padding: 25px;
+  line-height: 1.25;
 }
 .robotics-card {
-    padding:15px;
-    margin:25px;
-    background-color: var(--text-background);
-    border-radius: 12px;
-    max-width:400px;
-    
+  padding: 15px;
+  margin: 25px;
+  background-color: var(--text-background);
+  border-radius: 12px;
+  max-width: 400px;
 }
-.robotics img, .robotics-grid img {
-    max-width: 85%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-radius:12px;
-    border: 2px solid var(--text-background);
+.robotics img,
+.robotics-grid img {
+  max-width: 85%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  border: 2px solid var(--text-background);
 }
 .robotics-card {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .robotics-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(64, 170, 196, 0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(64, 170, 196, 0.3);
 }
 
 .robotics-grid p {
-    padding:15px;
+  padding: 15px;
 }
 
 /* Events */
 .events_background {
-    background-image: url(../images/events/happy_kids.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom:30px;
+  background-image: url(../images/events/happy_kids.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 .events_headline {
-    color: var(--orange);
-    padding: 10px
+  color: var(--orange);
+  padding: 10px;
 }
 .upcoming_events {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card_events img {
-    width:180px;
-    height:165px;
-    object-fit: cover;
-    border-radius: 12px;
+  width: 180px;
+  height: 165px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .card_events {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:10px; 
-    padding:15px;
-    margin:25px;
-    background-color: var(--text-background);
-    border-radius: 12px;
-    max-width:200px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  margin: 25px;
+  background-color: var(--text-background);
+  border-radius: 12px;
+  max-width: 200px;
+  text-align: center;
 }
 
 .card_events h3 {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 .card_events p {
-    font-size: 0.8rem;
-    padding:5px;
+  font-size: 0.8rem;
+  padding: 5px;
 }
-.card_events i, .young_stars i, .holiday_clubs i {
-    color: var(--lightblue);
-    padding-right:10px;
+.card_events i,
+.young_stars i,
+.holiday_clubs i {
+  color: var(--lightblue);
+  padding-right: 10px;
 }
 .clubs {
-    display:flex;
-    flex-direction: column;
-    gap:10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.young_stars_info p, .holiday_clubs_info p{
-    margin:25px;
+.young_stars_info p,
+.holiday_clubs_info p {
+  margin: 25px;
 }
-.young_stars img, .holiday_clubs img {
-    max-width: 100%;
-    margin-top:25px;
+.young_stars img,
+.holiday_clubs img {
+  max-width: 100%;
+  margin-top: 25px;
 }
-.young_stars i, .holiday_clubs i {
-    margin-left:25px;
-    line-height: 1.5;
+.young_stars i,
+.holiday_clubs i {
+  margin-left: 25px;
+  line-height: 1.5;
 }
-.young_stars p, .holiday_clubs p {
-    color: var(--orange);
+.young_stars p,
+.holiday_clubs p {
+  color: var(--orange);
 }
 
 /* About */
 
 .about_background {
-    background-image: url(../images/homepage/csm.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom:30px;
+  background-image: url(../images/homepage/csm.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 .about h2 {
-    color: var(--orange);
+  color: var(--orange);
 }
 .about p {
-    padding:25px;
+  padding: 25px;
 }
 .visit {
-    text-align: center;
-    padding: 25px;
-    line-height: 1.5;
+  text-align: center;
+  padding: 25px;
+  line-height: 1.5;
 }
 .hours {
-    padding-top: 25px;
-    padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 20px;
 }
 .map {
-    margin:10px;
+  margin: 10px;
 }
 .map iframe {
-    width: 100%;
-  
+  width: 100%;
 }
 .visit {
-    background-color: var(--text-background);
+  background-color: var(--text-background);
 }
 .visit h2 {
-    margin-bottom:25px;
-    color: var(--orange);
+  margin-bottom: 25px;
+  color: var(--orange);
 }
 .about img {
-    margin-bottom:80px;
+  margin-bottom: 80px;
 }
 
 /* Signup - Page */
 
 .signup_form {
-    background-color: var(--text-background);
-    padding: 40px 30px;
-    max-width: 600px;
-    margin: 60px auto;
-    border-radius: 12px;
+  background-color: var(--text-background);
+  padding: 40px 30px;
+  max-width: 600px;
+  margin: 60px auto;
+  border-radius: 12px;
 }
 
 .signup_form h2 {
-    color: var(--orange);
-    text-align: center;
-    margin-bottom: 30px;
+  color: var(--orange);
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .signup_form form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .signup_form label {
-    font-weight: var(--medium);
-    color: var(--lightblue);
-    font-family: var(--paragraph);
-    letter-spacing: 5%;
+  font-weight: var(--medium);
+  color: var(--lightblue);
+  font-family: var(--paragraph);
+  letter-spacing: 5%;
 }
 
-.signup_form input, .signup_form select, .signup_form textarea {
-    padding: 12px;
-    border: 2px solid var(--lightblue);
-    border-radius: 8px;
-    font-family: var(--paragraph);
-    font-size: 1rem;
-    background-color: var(--white);
-    color: var(--black);
+.signup_form input,
+.signup_form select,
+.signup_form textarea {
+  padding: 12px;
+  border: 2px solid var(--lightblue);
+  border-radius: 8px;
+  font-family: var(--paragraph);
+  font-size: 1rem;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .signup_form button {
-    font-family: var(--heading);
-    text-transform: uppercase;
-    padding: 12px;
-    background-color: var(--orange);
-    color: var(--black);
-    font-weight: var(--bold);
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 1rem;
+  font-family: var(--heading);
+  text-transform: uppercase;
+  padding: 12px;
+  background-color: var(--orange);
+  color: var(--black);
+  font-weight: var(--bold);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 .signup_form button:hover {
-    background-color: var(--lightblue);
+  background-color: var(--lightblue);
 }
 
 /* Get involved */
 
 .construction {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    margin:50px;
-    height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+  height: 70vh;
 }
 .construction a {
-    color: var(--orange);
-    font-size: 1.2rem;
-    background-color: var(--text-background);
-    padding:10px 20px;
-    border:1px solid var(--lightblue);
-    border-radius: 12px;
-
+  color: var(--orange);
+  font-size: 1.2rem;
+  background-color: var(--text-background);
+  padding: 10px 20px;
+  border: 1px solid var(--lightblue);
+  border-radius: 12px;
 }
-
 
 /* Footer */
 
 footer {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    gap:20px;
-    padding-top:40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 30px;
 }
+
 footer i {
-    color:var(--lightblue);
-    font-size: 1.3rem;
-    margin:10px;
-    padding-bottom:40px;
+  color: var(--lightblue);
+  font-size: 1.3rem;
+  margin: 10px;
+  padding-bottom: 40px;
 }
-footer h4, footer p {
-    text-align: center;
+
+footer h4,
+footer p {
+  text-align: center;
 }
 footer h4 {
-    margin-bottom:10px;
+  margin-bottom: 10px;
 }
 footer p {
-    font-size: var(--text-base);
-    line-height: 1.8;
-    font-weight: var(--light);
+  font-size: var(--text-base);
+  line-height: 1.8;
+  font-weight: var(--light);
 }
 
-
-
-
-
+.follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /* MEDIA QUERIES*/
 
 /* Nav logo */
 
 @media (max-width: 619px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-    }
-    
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
-    
-
-
 
 /* event cards */
 
 @media (min-width: 420px) {
-    .card_events img {
-        padding-right:20px;
-    }
-    .card_events {
-        flex-direction:row;
-        min-width: 380px;
-        max-width:400px;
-        justify-content: center;
-        align-items: center;
-    }
+  .card_events img {
+    padding-right: 20px;
+  }
+  .card_events {
+    flex-direction: row;
+    min-width: 380px;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
 
 /* Mobile Burger Menu */
 
 @media (min-width: 620px) {
-    nav {
-        display:block;
-        position:static;
-    }
-    .hamburger-icon {
-        display:none;
-    }
-    nav a {
-        display:inline-block;
-        background: none;
-    }
-    .navbar {
-        border-bottom: 1px solid var(--orange);
-    }
-    
+  nav {
+    display: block;
+    position: static;
+  }
+  .hamburger-icon {
+    display: none;
+  }
+  nav a {
+    display: inline-block;
+    background: none;
+  }
+  .navbar {
+    border-bottom: 1px solid var(--orange);
+  }
 }
 
 /* Tablet */
 
 @media (min-width: 621px) {
+  /* Homepage */
+  .logo {
+    display: none;
+  }
+  h1 {
+    font-size: var(--text-2xl);
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .slogan p {
+    left: -210px;
+  }
+  .museum-intro {
+    margin: 50px;
+  }
+  .museum-intro p {
+    font-size: var(--text-med);
+  }
+  .exhibitions,
+  .events,
+  .for-kids {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .homepage h2 {
+    font-size: 1.8rem;
+    background-color: var(--background);
+    color: var(--orange);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  }
 
-    /* Homepage */
-    .logo{
-        display:none;
-    }
-    h1 {
-        font-size: var(--text-2xl);
-    }
-    .navbar{
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-    }
-    .slogan p {
-            left:-210px;
-        }
-    .museum-intro {
-        margin:50px;
-}
-    .museum-intro p {
-        font-size: var(--text-med);
-    }
-    .exhibitions, .events, .for-kids {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .homepage h2 {
-        font-size: 1.8rem;
-        background-color: var(--background);
-        color: var(--orange);
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-    }
-    
-    /* Exhibitions */
-   
-    .section-headline, .section-headline2 {
-        text-align: center;
-        font-size: 1.5rem;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-    }
-    .sky-above img {
-        max-width: 60%;
-        margin-left:20px;
-    }
-    .sky-above {
-        flex-direction: row;
-        align-items: flex-start;
-        padding-top: 50px;
-        padding-bottom: 40px;
-    }
-    .vr-spacewalk {
-        display: flex;
-        justify-content: space-around;
-        padding-top: 40px;
-        padding-bottom: 40px;
-   
-    }
-    .vr-spacewalk img {
-        margin-right: 25px;
-        max-width: 45%;
-        border-radius: 12px;
-    }
-    .evolution img {
-        max-width:50%
-    }
-    .evolution {
-        display:flex;
-    }
-    .t-rex img {
-        margin-left: 25px;
-    }
-    .dodo img, .mammoth img {
-        margin-right:25px;
-    }
-    .dodo {
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .t-rex {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-    }
-    .dodo, .t-rex, .mammoth {
-        max-width:900px;
-    }
-    .mammoth {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .robotics-grid {
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-    }
-    .robotics {
-        display:flex;
-        flex-direction: row;
-        align-items: start;
-        
-    }
-    .robotics img {
-        max-width: 40%;
-        margin-right: 25px;
-    }
-    /* Events */
-    
+  /* Exhibitions */
 
+  .section-headline,
+  .section-headline2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  }
+  .sky-above img {
+    max-width: 60%;
+    margin-left: 20px;
+  }
+  .sky-above {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .vr-spacewalk {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .vr-spacewalk img {
+    margin-right: 25px;
+    max-width: 45%;
+    border-radius: 12px;
+  }
+  .evolution img {
+    max-width: 50%;
+  }
+  .evolution {
+    display: flex;
+  }
+  .t-rex img {
+    margin-left: 25px;
+  }
+  .dodo img,
+  .mammoth img {
+    margin-right: 25px;
+  }
+  .dodo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .t-rex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .dodo,
+  .t-rex,
+  .mammoth {
+    max-width: 900px;
+  }
+  .mammoth {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .robotics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .robotics {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+  .robotics img {
+    max-width: 40%;
+    margin-right: 25px;
+  }
+  /* Events */
 
-    /* About */
-   .about {
+  /* About */
+  .about {
     padding-left: 100px;
     padding-right: 100px;
-   }
-   .about_grid h2 {
+  }
+  .about_grid h2 {
     background-color: var(--background);
     color: var(--orange);
     padding-top: 25px;
     text-align: left;
-    padding-left:25px;
-   }
-   .about_grid img{
+    padding-left: 25px;
+  }
+  .about_grid img {
     border-radius: 12px;
-   }
-   .map{
+  }
+  .map {
     margin-left: 100px;
-    margin-right:100px;
-   }
-   
+    margin-right: 100px;
+  }
 }
-
 
 /* Desktop */
 
 @media (min-width: 900px) {
+  /* Homepage */
 
-    /* Homepage */
+  h1 {
+    font-size: var(--text-2xl);
+  }
+  .slogan p {
+    left: -210px;
+  }
+  body {
+    background-color: var(--background);
+  }
+  main {
+    background-color: var(--background);
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  header {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 
-    h1 {
-        font-size: var(--text-2xl);
-    }
-    .slogan p {
-        left:-210px;
-    }
-    body {
-        background-color: var(--background);
+  .exhibitions,
+  .events,
+  .for-kids {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
 
-    }
-    main {
-        background-color: var(--background);
-        max-width:1400px;
-        margin:0 auto;
-    }
-    header {
-        max-width: 1400px;
-        margin:0 auto;
-    }
-    
-    .exhibitions, .events, .for-kids {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .hero {
-        display:flex;
-        flex-direction: column;
-    }
-   
-    
-    /* Exhibitions */
-    .sky-above, .vr-spacewalk, .robotics, .clubs {
-        padding-left: 150px;
-        padding-right:150px;
-    }
-    .sky-above p, .vr-spacewalk p, .dodo p, .t-rex p, .mammoth p, .robotics p {
-        font-size: 1.2rem;
-        line-height: 1.3;
-    }
-    .sky-above img {
-        height:300px;
-    }
-    
-    .robotics-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .events_headline {
-        background-color: var(--background);
-        padding-top:50px;
-    }
-    .clubs img {
-        border-radius: 12px;
-    }
-    /* About */
-    .about {
-        padding-left: 200px;
-        padding-right:200px;
-    }
-    .about img {
-        margin-bottom: 50px;
-    }
-   
+  /* Exhibitions */
+  .sky-above,
+  .vr-spacewalk,
+  .robotics,
+  .clubs {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .sky-above p,
+  .vr-spacewalk p,
+  .dodo p,
+  .t-rex p,
+  .mammoth p,
+  .robotics p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+  .sky-above img {
+    height: 300px;
+  }
+
+  .robotics-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .events_headline {
+    background-color: var(--background);
+    padding-top: 50px;
+  }
+  .clubs img {
+    border-radius: 12px;
+  }
+  /* About */
+  .about {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .about img {
+    margin-bottom: 50px;
+  }
 }
 
 @media (min-width: 1300px) {
-    .upcoming_events {
-        display:grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .upcoming_events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
