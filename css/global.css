@@ -1,255 +1,295 @@
-@import "/css/variables.css";
+@import "./css/variables.css";
 
 /* Global Styles */
 
-* { 
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box; 
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Typography */
 
-h1, h2, h3, h4, a {
-    font-family: var(--heading);   
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: var(--heading);
 }
+
 p {
-    font-family: var(--paragraph);
-    font-size: var(--text-base);
-    font-weight: var(--regular);
+  font-family: var(--paragraph);
+  font-size: var(--text-base);
+  font-weight: var(--regular);
 }
-h1, h2, h3, a {
-    text-transform: uppercase;
+h1,
+h2,
+h3,
+a {
+  text-transform: uppercase;
 }
-h1, h2, p {
-    color: var(--white);
+h1,
+h2,
+p {
+  color: var(--white);
 }
-h1, h2 {
-    font-weight: var(--bold);
-    font-size: var(--text-l);
-    text-align: center;
-}
+
+h1,
 h2 {
-    background-color: var(--text-background);
+  font-weight: var(--bold);
+  font-size: var(--text-l);
+  text-align: center;
 }
+
+h2 {
+  background-color: var(--text-background);
+}
+
 h4 {
-    text-transform: capitalize;
-    font-weight: var(--light);
+  text-transform: capitalize;
+  font-weight: var(--light);
 }
-h3, h4 {
-    color: var(--orange);
-    font-size: var(--text-med);
+
+h3,
+h4 {
+  color: var(--orange);
+  font-size: var(--text-med);
 }
-a { 
-    text-decoration: none;
-    font-size: var(--text-base);
-    font-weight: var(--bold);
-    color: var(--black);
+
+a {
+  text-decoration: none;
+  font-size: var(--text-base);
+  font-weight: var(--bold);
+  color: var(--black);
 }
+
 nav a {
-    text-decoration: none;
-    color: var(--lightblue);
-    font-size: var(--text-med);
-    font-weight: var(--medium);
+  text-decoration: none;
+  color: var(--lightblue);
+  font-size: var(--text-med);
+  font-weight: var(--medium);
 }
+
 nav a:hover {
-    color: var(--orange);
+  color: var(--orange);
 }
+
 .form label {
-    font-family: var(--paragraph);
-    color: var(--white);
-    font-weight: var(--light);
+  font-family: var(--paragraph);
+  color: var(--white);
+  font-weight: var(--light);
 }
 
 /* Main */
 
 main {
-    background-color: var(--background);
+  background-color: var(--background);
 }
+
 body {
-    background-color: var(--background);
+  background-color: var(--background);
 }
+
 main img {
-    max-width: 100%;
+  max-width: 100%;
 }
+
 .fullwidth {
   margin: 0;
   padding: 0;
   display: block;
   max-width: 100%;
 }
-footer, nav, header {
-    background-color: var(--text-background);
+
+footer,
+nav,
+header {
+  background-color: var(--text-background);
 }
+
 .extra-offers {
-    color:var(--lightblue)
+  color: var(--lightblue);
 }
+
 .highlight-orange {
-    text-transform: uppercase;
-    color:var(--orange)
+  text-transform: uppercase;
+  color: var(--orange);
 }
+
 .slogan2 h1 {
-    font-size: var(--text-2xl);
-    padding-top:40px;
+  font-size: var(--text-2xl);
+  padding-top: 40px;
 }
+
 .slogan2 p {
-    font-size: 0.9rem;
-    color:var(--orange);
-    text-align: center;
-    position: relative;
-    bottom:8px;
+  font-size: 0.9rem;
+  color: var(--orange);
+  text-align: center;
+  position: relative;
+  bottom: 8px;
 }
+
 .slogan2 {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 /* Footer */
 
 footer {
-    border-top: 1px solid var(--orange);
+  border-top: 1px solid var(--orange);
 }
+
 .contact_us a {
-    color: var(--white);
-    text-transform: capitalize;
-    font-weight: var(--light);
-    text-decoration: underline;
-    text-decoration-color: var(--lightblue) ;
+  color: var(--white);
+  text-transform: capitalize;
+  font-weight: var(--light);
+  text-decoration: underline;
+  text-decoration-color: var(--lightblue);
 }
+
 .get_involved a {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--paragraph);
-    font-weight: var(--light);
-    text-transform: capitalize;
-    color: var(--white);
-    line-height: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--paragraph);
+  font-weight: var(--light);
+  text-transform: capitalize;
+  color: var(--white);
+  line-height: 1.7rem;
 }
 
 /* Burger menu */
 
 .hamburger-icon {
-    color: var(--lightblue);
-    display: inline-block;
-    padding: 20px;
+  color: var(--lightblue);
+  display: inline-block;
+  padding: 20px;
 }
 
-nav, #menu-checkbox {
-    display:none;
+nav,
+#menu-checkbox {
+  display: none;
 }
+
 #menu-checkbox:checked ~ nav {
-    display:block;
-    position: absolute;
-    top:4.5%;
-    padding-bottom: 10px;
-    z-index: 1000;
-    
+  display: block;
+  position: absolute;
+  top: 4.5%;
+  padding-bottom: 10px;
+  z-index: 1000;
 }
 
 #menu-checkbox:checked ~ nav a {
-    color: var(--lightblue);
-    text-align: center;
-    border-radius: 20px;
-    padding: 10px 30px;
+  color: var(--lightblue);
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px 30px;
 }
 
 #menu-checkbox:checked ~ nav a:hover {
-    color: var(--orange);
+  color: var(--orange);
 }
 
 nav {
-    position:absolute;
-    
+  position: absolute;
 }
+
 .navbar {
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 nav a {
-    display: block;
-
+  display: block;
 }
+
 .active {
-    color: var(--orange);
+  color: var(--orange);
 }
-
 
 /* Buttons */
 
 .cta {
-    background-color: var(--orange);
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: 1px solid var(--text-background);
-    display:inline-block;
-    margin-top:15px;
+  background-color: var(--orange);
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid var(--text-background);
+  display: inline-block;
+  margin-top: 15px;
 }
+
 .cta:hover {
-    background-color: var(--lightblue);
+  background-color: var(--lightblue);
 }
 
 /* Expand Collapse section */
 
 .orange {
-    color: var(--orange);
+  color: var(--orange);
 }
+
 .info-tab input {
-    display:none;
+  display: none;
 }
 
 .info-tab label {
-    display:block;
-    font-family: var(--heading);
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    font-weight: var(--bold);
-    color: var(--orange);
-    background-color: var(--text-background);
-    cursor:pointer;
-    padding:10px 10px 10px 40px;
-    position: relative;
-    margin:10px auto;
-    border-radius: 12px;
-    max-width: 600px;
-    user-select: none;
+  display: block;
+  font-family: var(--heading);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: var(--bold);
+  color: var(--orange);
+  background-color: var(--text-background);
+  cursor: pointer;
+  padding: 10px 10px 10px 40px;
+  position: relative;
+  margin: 10px auto;
+  border-radius: 12px;
+  max-width: 600px;
+  user-select: none;
 }
+
 .info-tab label:hover {
-    box-shadow: 0 8px 16px rgba(68, 188, 221, 0.3);
+  box-shadow: 0 8px 16px rgba(68, 188, 221, 0.3);
 }
 
 .info-tab label:before {
-    content:" ";
-    border-width: 10px;
-    border-style: solid;
-    border-color:transparent transparent transparent var(--lightblue);
-    height:0;
-    font-size:0;
-    position: absolute;
-    top:13px;
-    left: 15px;
-    transition: transform 0.5s;
-    transform-origin: 3px center;
+  content: " ";
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent var(--lightblue);
+  height: 0;
+  font-size: 0;
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  transition: transform 0.5s;
+  transform-origin: 3px center;
 }
+
 .info-tab-content {
-    padding-left:10px;
-    height:0;
-    overflow:hidden;
-    opacity: 0;
+  padding-left: 10px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
 }
+
 .info-tab input:checked ~ label:before {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
+
 .info-tab input:checked ~ .info-tab-content {
-    opacity:1;
-    height: auto;
-    margin:10px auto;
-    padding:10px;
-    max-width:600px;
+  opacity: 1;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 600px;
 }
-.info-tab input:checked ~ .info-tab-content li{
-    font-family: var(--paragraph);
-    margin-left:25px;
-    line-height: 1.5;
-    color:var(--white);
+
+.info-tab input:checked ~ .info-tab-content li {
+  font-family: var(--paragraph);
+  margin-left: 25px;
+  line-height: 1.5;
+  color: var(--white);
 }
